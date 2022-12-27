@@ -1,0 +1,128 @@
+.anotherInfo {
+  width: 350px;
+  height: 370px;
+}
+
+.anotherInfoTitle {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.anotherInfoArrow {
+  margin: 25px 25px 25px 0;
+}
+
+.anotherInfoFirstBanner {
+  background-color: #636B7F;
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+
+  img {
+    width: 180px;
+  }
+
+  .anotherInfoFirstBannerSubText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0 0 0;
+    width: 118px;
+    margin-right: 25px;
+    color: #FFFF;
+  }
+
+  .anotherInfoFirstBannerButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    width: 55px;
+    height: 25px;
+    transform: skew(-45deg);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    right: 90px;
+    top: -25px;
+    background-color: #FFDC38;
+    color: black;
+    div {
+      font-weight: 600;
+    }
+  }
+
+  .anotherInfoFirstBannerButton > div {
+    transform: skew(45deg);
+  }
+
+  .anotherInfoFirstBannerChoose {
+    margin-top: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+}
+
+.anotherInfoSecondBanner {
+  background-color: #F5F5F7;
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 10px;
+
+  img {
+    width: 180px;
+  }
+
+  .anotherInfoSubSecondText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px 0 25px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .anotherInfoSecondButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 2px;
+    width: 50px;
+    height: 20px;
+    transform: skew(-45deg);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    right: 198px;
+    top: -32px;
+    background-color: #FFDC38;
+    color: black;
+    div {
+      font-weight: 600;
+    }
+  }
+
+  .anotherInfoSecondButton > div {
+    transform: skew(45deg);
+  }
+
+  .anotherInfoSecondBannerChoose {
+    margin-top: 10px;
+    margin-right: 80px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 376px){
+  .anotherInfo {
+    margin-bottom: 110px;
+  }
+}

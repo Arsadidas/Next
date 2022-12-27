@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.mainBlock {
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 1780px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 376px) {
+  .mainBlock {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
